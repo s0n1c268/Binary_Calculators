@@ -3,7 +3,7 @@
 int convert(long long n);
 int main() {
     long long n;
-    printf("Enter a binary number: ");
+    printf("Please enter a Binary Number: ");
     scanf("%lld", &n);
     printf("%lld in binary = %d", n , convert(n));
     return 0;
